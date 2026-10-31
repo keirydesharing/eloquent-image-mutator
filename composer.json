@@ -1,24 +1,28 @@
 {
-    "name": "sahusoftcom/eloquent-image-mutator",
-    "description": "One solution for image uploads.",
-    "keywords": ["photo", "image", "upload", "laravel"],
-    "homepage": "https://github.com/sahusoftcom/eloquent-image-mutator",
-    "require": {
-        "php": ">=5.5.9",
-        "laravel/framework": "^5.1",
-        "imagine/imagine": ">=0.6.3"
-    },
-    "license": "Sahu Soft India Private Limited",
-
-    "autoload": {
-        "psr-4": {
-            "SahusoftCom\\EloquentImageMutator\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Mrigank",
-            "email": "mridul@sahusoft.com"
-        }
-    ]
+  "name": "sahusoftcom/eloquent-image-mutator",
+  "description": "One solution for image uploads.",
+  "keywords": [
+    "photo",
+    "image",
+    "upload",
+    "laravel"
+  ],
+  "homepage": "https://github.com/sahusoftcom/eloquent-image-mutator",
+  "require": {
+    "php": ">=8.1",
+    "laravel/framework": "^6.0|^7.0|^8.0|^9.0|^10.0",
+    "imagine/imagine": ">=0.6.3"
+  },
+  "license": "Sahu Soft India Private Limited",
+  "autoload": {
+    "psr-4": {
+      "SahusoftCom\\EloquentImageMutator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mrigank",
+      "email": "mridul@sahusoft.com"
+    }
+  ]
 }
